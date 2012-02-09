@@ -1,6 +1,83 @@
 <html>
- <head>
-  <title>design.book</title>
- </head>
- <body></body>
-</html>
+	<head>
+			<title>design.book</title>
+			<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+			<style>
+				body
+				{
+					font-family: 'PT Sans', sans-serif;
+					display:-webkit-box;
+					-webkit-box-align:center;
+					-webkit-box-pack:center;
+				}
+				
+				#container
+				{
+					margin:auto auto;
+					background:url('coverbook.png');
+					width:792px;
+					height:612px;
+					position:relative;
+					-webkit-box-flex:1;
+				}
+				
+				#buttons
+				{
+					position:absolute;
+					top:450px;
+					left:70px;
+				}
+				
+				.button
+				{
+					width:100px;
+					height:30px;
+					background:#EF3B40;
+					color:white;
+					margin:0px 6px;
+					display:inline-block;
+					text-align:center;
+					border-radius:5px;
+					line-height:30px;
+					font-size: 18px;
+					padding: 5px 15px;
+				}
+				
+				a
+				{
+					text-decoration:none;
+				}
+				
+				.button:hover 
+				{
+					background:#D4262C;
+				}
+				
+         </style>
+
+         <!-- BEGIN Google Analytics -->
+         <script type="text/javascript">
+
+           var _gaq = _gaq || [];
+           _gaq.push(['_setAccount', 'UA-28750776-1']);
+           _gaq.push(['_setDomainName', 'designbook.in']);
+           _gaq.push(['_trackPageview']);
+
+           (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+           })();
+
+         </script>
+         <!-- END -->
+
+	</head>
+	<body>
+		<div id="container">
+			<div id="buttons">
+				<a href="media/designbook_ky.pdf"><div id="learnmore" class="button">Learn More</div></a>
+				<a href="media/designbook_demo.pdf"><div id="demo" class="button">Demo</div></a>
+			</div>
+		</div>
+	</body>
